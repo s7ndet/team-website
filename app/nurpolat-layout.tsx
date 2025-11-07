@@ -16,4 +16,4 @@ export default function RootLayout({
     <html lang="kk">
       <body className="bg-zinc-50 text-black dark:bg-zinc-900 dark:text-white">
         <header className="flex justify-center gap-6 py-6 bg-white dark:bg-black shadow-md">
-          <Link href="/">🏠
+          <Link href="/">
