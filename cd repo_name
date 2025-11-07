@@ -1,0 +1,16 @@
+# 1. Репоны жергілікті компьютерге алу (егер жоқ болса)
+git clone https://github.com/username/repo_name.git
+cd repo_name
+
+# 2. Жаңа қалта жасау және оған файл қосу
+mkdir new_folder_name
+echo "# Жаңа папка\nБұл папка жобаның жаңа бөлімін сипаттайды." > new_folder_name/README.md
+
+# 3. Барлық өзгерістерді Stage-қа қосу
+git add .
+
+# 4. Commit жасау
+git commit -m "Add new folder with README"
+
+# 5. GitHub-қа push жасау
+git push origin main
